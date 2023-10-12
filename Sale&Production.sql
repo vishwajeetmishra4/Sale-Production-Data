@@ -1,9 +1,12 @@
--- Basic SQL 
+-- Sales & Production Data
 
-----DATABASE No. 1 -----------
 
------Create Table named Customers for DATABASE B ----------
+---Before Pubishing or Copying Data Create database for Sales & Production & then put these tables & data in them. 
 
+----DATABASE No. 1(Sales) -----------
+
+-----Create Table named Customers for Sales ----------
+	
 CREATE TABLE Customers
 	(
 	  "Customer_ID" int PRIMARY KEY,
@@ -37,7 +40,7 @@ VALUES
 
 -----End of Details to be filled in Table of Customers (Might be Added More Further) ----------
 
------Create Table Named Orders for DATABASE A ----------
+-----Create Table Named Orders for Sales ----------
 	
 CREATE TABLE Orders
 	(
@@ -72,7 +75,7 @@ VALUES
 	
 -----End of Details to be filled in Table of Orders (Might be Added More Further) ----------
 
------Create Table Named Staffs for DATABASE A ----------	
+-----Create Table Named Staffs for Sales ----------	
 
 
 CREATE TABLE  Staffs
@@ -108,7 +111,7 @@ VALUES
 -----End of Details to be filled in Table of Staffs (Might be Added More Further) ----------
 
 
------Create Table Named Stores for DATABASE A ----------	
+-----Create Table Named Stores for Sales ----------	
 
 
 CREATE TABLE Stores
@@ -144,7 +147,7 @@ VALUES
 -----End of Details to be filled in Table of Stores (Might be Added More Further) ----------
 
 
------Create Table Named Order Items for DATABASE A ----------	
+-----Create Table Named Order Items for Sales----------	
 
 
 CREATE TABLE Order_Items
@@ -189,9 +192,9 @@ VALUES
 
 
 	
------DATABASE No. 2 -----------
+-----DATABASE No. 2 (Production)  -----------
 
------Create Table for Categories for DATABASE 2----------
+-----Create Table for Categories for Production ----------
 	
 CREATE TABLE Categories
 	( 
@@ -219,7 +222,7 @@ VALUES
 
 -----End of Details to be filled in Table of Categories (Might be Added More Further) ----------
 
------Create Table for Products for DATABASE 2----------
+-----Create Table for Products for Production ----------
 		
 CREATE TABLE Products 
 	(
@@ -261,7 +264,7 @@ VALUES
 
 -----End of Details to be filled in Table of Categories (Might be Added More Further) ----------
 
------Create Table for Stocks for DATABASE 2----------
+-----Create Table for Stocks for Production ----------
 
 
 CREATE TABLE Stocks
@@ -300,7 +303,7 @@ VALUES
 
 -----End of Details to be filled in Table of Stocks (Might be Added More Further) ----------
 
------Create Table for Brands for DATABASE 2----------
+-----Create Table for Brands for Production ----------
 
 
 CREATE TABLE Brands
