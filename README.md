@@ -30,6 +30,6 @@ The interconnection between these tables within the Production department enable
 
 In summary, the Sales and Production departments play pivotal roles in our organization. The Sales department's data structure facilitates customer relationship management, sales tracking, and staff management, while the Production department's data structure ensures effective product management, categorization, and inventory control. These interconnected data systems enable us to make informed decisions and provide the best service to our customers while optimizing our internal operations.
 
-## Database Server Of Sales & Production Departments
+## Connection of Database Server Of Sales & Production Departments
 
 ![SQL-Sample-Server-Database](https://github.com/vishwajeetmishra4/Sale-Production-Data/assets/135427511/bd8d296d-57db-47f2-8d38-9170a54852d3)
